@@ -4,10 +4,15 @@
 
 
 create table sapato(
+
 id serial primary key,
+
 marca varchar(50),
+
 tamanho varchar(14),
+
 cor varchar(50)
+
 )
 
 select * from sapato
