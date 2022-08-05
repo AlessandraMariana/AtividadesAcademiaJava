@@ -1,6 +1,8 @@
 # Atividade Jdbc realizada pela Academia Técnica Java
 
-* Tabela do DB local 
+*** Tabela do DB local ***
+
+
 create table sapato(
 id serial primary key,
 marca varchar(50),
