@@ -1,4 +1,4 @@
-# Atividade Jdbc realizada pela Academia Técnica Java
+# Repositório com as Atividades realizadas na Academia Técnica Java
 
 *** Tabela do DB local ***
 
@@ -16,3 +16,9 @@ cor varchar(50)
 )
 
 select * from sapato
+
+
+# Lista de Atividades 
+
+*** Atividade 1: JDBC ***
+*** Atividade 2: JPA ***

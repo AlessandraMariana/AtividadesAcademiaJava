@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang= "en" xmls:th="http://thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Consulta</h1>
+        
+        <table> 
+        	<thead>
+        		<tr> 
+        		<th>Id</th>
+                    <th>Marca</th>
+                    <th>Tamanho</th>
+                    <th>Cor</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+ 				<tr th:each="sapato: ${sapatos}">
+                    <td th:text="*{sapato.id}"/>
+                    <td th:text="*{sapato.marca}"/>
+                    <td th:text="*{sapato.tamanho}"/>
+                    <td th:text="*{sapato.cor}"/>
+ 				</tr>
+        	</tbody>
+        </table>
+        <a th:href="@{/cadastro}">Cadastro</a>
+          
+    </body>
+</html>

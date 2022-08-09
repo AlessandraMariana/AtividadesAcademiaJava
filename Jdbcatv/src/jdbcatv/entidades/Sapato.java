@@ -6,7 +6,10 @@ public class Sapato {
 	private String tamanho;
 	private String cor;
 	
-	
+	@Override
+	public String toString() {
+		return "Sapato [id=" + id + ", marca=" + marca + ", tamanho=" + tamanho + ", cor=" + cor + "]";
+	}
 	public Sapato(String marca, String tamanho, String cor) {
 		super();
 		this.marca = marca;

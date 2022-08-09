@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Cadastro</h1>
+        <form th:action="@{/cadastro}" method="post">
+        <label for="idmarca">Marca</label>
+        <input id="idmarca" type="text" placeholder="Informe a marca" name ="marca"/>
+        
+        <label for="idtamanho">Tamanho</label>
+        <input id="idtamanho" type="text" placeholder="Informe o tamanho" name="tamanho"/>
+        
+        <label for="idcor">Cor</label>
+        <input id="idcor" type="text" placeholder="Informe a cor" name="cor"/>
+        
+         	<button>Salvar</button>
+    </body>
+</html>
