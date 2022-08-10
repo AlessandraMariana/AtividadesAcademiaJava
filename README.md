@@ -1,5 +1,9 @@
 # Repositório com as Atividades realizadas na Academia Técnica Java
 
+# Lista de Atividades 
+
+*** Atividade 1: JDBC ***
+
 *** Tabela do DB local ***
 
 
@@ -18,8 +22,7 @@ cor varchar(50)
 select * from sapato
 
 
-# Lista de Atividades 
 
-*** Atividade 1: JDBC ***
 
 *** Atividade 2: JPA ***
+insert into sapato (id, marca, tamanho, cor) values (1, 'moleca','38', 'preto')
