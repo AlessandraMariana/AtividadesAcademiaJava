@@ -24,5 +24,6 @@ select * from sapato
 
 
 
+
 *** Atividade 2: JPA ***
 insert into sapato (id, marca, tamanho, cor) values (1, 'moleca','38', 'preto')
