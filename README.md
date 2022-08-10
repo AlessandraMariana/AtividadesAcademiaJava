@@ -2,9 +2,10 @@
 
 # Lista de Atividades 
 
-*** Atividade 1: JDBC ***
+**Atividade 1: JDBC**
 
-*** Tabela do DB local ***
+
+**Tabela do DB local**
 
 
 create table sapato(
@@ -25,5 +26,7 @@ select * from sapato
 
 
 
-*** Atividade 2: JPA ***
+**Atividade 2: JPA**
+
+
 insert into sapato (id, marca, tamanho, cor) values (1, 'moleca','38', 'preto')
