@@ -21,4 +21,5 @@ select * from sapato
 # Lista de Atividades 
 
 *** Atividade 1: JDBC ***
+
 *** Atividade 2: JPA ***

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Edição de Sapatos</h1>
+		<form th:action="@{/cadastro}" method="post" th:object="${sapato}">
+			<label>Id</label>
+			<input type="text" th:field="*{id}" readonly />
+		
+			<label for="idmarca">Marca</label>
+			<input id="idmarca" type="text" placeholder="Informe a marca" th:field="*{marca}" />
+			
+			<label for="idtamanho">Tamanho</label>
+			<input id="idtamanho" type="text" placeholder="Informe o tamanho" th:field="*{tamanho}" />
+			
+			<label for="idcor">Cor</label>
+			<input id="idcor" type="text" placeholder="Informe a cor " th:field="*{cor}" />
+		
+			<button>Salvar</button>
+	</body>
+</html>
