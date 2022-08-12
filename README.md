@@ -30,3 +30,7 @@ select * from sapato
 
 
 insert into sapato (id, marca, tamanho, cor) values (1, 'moleca','38', 'preto')
+
+
+
+**Atividade 3: API**
